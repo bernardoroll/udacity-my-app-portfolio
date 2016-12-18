@@ -1,6 +1,7 @@
 package com.bernardo.myappportfolio.presenter;
 
 public interface DashboardPresenter extends CommonPresenter {
+
     String getPopularMoviesString();
     String getStockHawkString();
     String getBuildItBiggerString();
@@ -14,4 +15,5 @@ public interface DashboardPresenter extends CommonPresenter {
     String getMakeYourAppMaterialLaunchAppString();
     String getGoUbiquitousLaunchAppString();
     String getCapstoneLaunchAppString();
+
 }

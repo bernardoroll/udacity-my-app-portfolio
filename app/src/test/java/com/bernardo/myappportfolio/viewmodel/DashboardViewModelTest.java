@@ -22,7 +22,6 @@ public class DashboardViewModelTest {
 
     @Test
     public void didClickPopularMoviesButton() throws Exception {
-        // Arrange
         // Act
         this.subject.didClickPopularMoviesButton();
         // Assert
@@ -31,7 +30,6 @@ public class DashboardViewModelTest {
 
     @Test
     public void didClickStockHawkButton() throws Exception {
-        // Arrange
         // Act
         this.subject.didClickStockHawkButton();
         // Assert
@@ -40,7 +38,6 @@ public class DashboardViewModelTest {
 
     @Test
     public void didClickBuildItBiggerButton() throws Exception {
-        // Arrange
         // Act
         this.subject.didClickBuildItBiggerButton();
         // Assert
@@ -49,7 +46,6 @@ public class DashboardViewModelTest {
 
     @Test
     public void didClickMakeYourAppMaterialButton() throws Exception {
-        // Arrange
         // Act
         this.subject.didClickMakeYourAppMaterialButton();
         // Assert
@@ -59,7 +55,6 @@ public class DashboardViewModelTest {
 
     @Test
     public void didClickGoUbiquitousButton() throws Exception {
-        // Arrange
         // Act
         this.subject.didClickGoUbiquitousButton();
         // Assert
@@ -68,7 +63,6 @@ public class DashboardViewModelTest {
 
     @Test
     public void didClickCapstoneButton() throws Exception {
-        // Arrange
         // Act
         this.subject.didClickCapstoneButton();
         // Assert
