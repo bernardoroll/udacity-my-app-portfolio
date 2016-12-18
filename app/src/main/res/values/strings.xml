@@ -1,10 +1,16 @@
 <resources>
     <string name="app_name" translatable="false">My App Portfolio</string>
     <string name="my_nanodegree_apps">My Nanodegree Apps!</string>
-    <string name="popular_movies">Popular Movies</string>
+    <string name="popular_movies" translatable="false">Popular Movies</string>
     <string name="stock_hawk" translatable="false">Stock Hawk</string>
-    <string name="build_it_bigger">Build it bigger</string>
-    <string name="make_your_app_material">Make Your App Material</string>
-    <string name="go_ubiquitous">Go Ubiquitous</string>
+    <string name="build_it_bigger" translatable="false">Build it bigger</string>
+    <string name="make_your_app_material" translatable="false">Make Your App Material</string>
+    <string name="go_ubiquitous" translatable="false">Go Ubiquitous</string>
     <string name="capstone" translatable="false">Capstone</string>
+    <string name="popular_movies_lauch_app">This button will launch my Popular Movies app!</string>
+    <string name="stock_hawk_launch_app">This button will launch my Stock Hawk app!</string>
+    <string name="build_it_bigger_launch_app">This button will launch my Build it bigger app!</string>
+    <string name="capstone_launch_app">This button will launch my Capstone app!</string>
+    <string name="go_ubiquitous_launch_app">This button will launch my Go Ubiquitous app!</string>
+    <string name="make_your_app_material_launch_app">This button will launch my Make Your App Material app!</string>
 </resources>

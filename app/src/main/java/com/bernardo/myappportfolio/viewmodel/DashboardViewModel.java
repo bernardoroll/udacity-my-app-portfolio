@@ -7,8 +7,33 @@ public class DashboardViewModel {
 
     private DashboardPresenter presenter;
 
+
     public DashboardViewModel(DashboardPresenter presenter) {
         this.presenter = presenter;
+    }
+
+    public void didClickPopularMoviesButton() {
+        this.presenter.showToast(this.presenter.getPopularMoviesLaunchAppString());
+    }
+
+    public void didClickStockHawkButton() {
+        this.presenter.showToast(this.presenter.getStockHawkLaunchAppString());
+    }
+
+    public void didClickBuildItBiggerButton() {
+        this.presenter.showToast(this.presenter.getBuildItBiggerLaunchAppString());
+    }
+
+    public void didClickMakeYourAppMaterialButton() {
+        this.presenter.showToast(this.presenter.getMakeYourAppMaterialLaunchAppString());
+    }
+
+    public void didClickGoUbiquitousButton() {
+        this.presenter.showToast(this.presenter.getGoUbiquitousLaunchAppString());
+    }
+
+    public void didClickCapstoneButton() {
+        this.presenter.showToast(this.presenter.getCapstoneLaunchAppString());
     }
 
     public String getPopularMoviesName() {

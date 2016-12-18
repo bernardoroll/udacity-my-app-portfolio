@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="my_nanodegree_apps">Meus apps do Nanodegree</string>
-    <string name="popular_movies">Filmes Populares</string>
-    <string name="build_it_bigger">Construa isso maior</string>
-    <string name="make_your_app_material">Faça Seu App Material</string>
-    <string name="go_ubiquitous">Seja ubíquo</string>
+    <string name="popular_movies_lauch_app">Este botão irá iniciar meu aplicativo Popular Movies!</string>
+    <string name="stock_hawk_launch_app">Este botão irá iniciar meu aplicativo Stock Hawk!</string>
+    <string name="build_it_bigger_launch_app">Este botão irá inicar meu aplicativo Build It Bigger!</string>
+    <string name="capstone_launch_app">Este botão irá iniciar meu aplicativo Capstone!</string>
+    <string name="go_ubiquitous_launch_app">Este botão irá iniciar meu aplicativo Go Ubiquitous!</string>
+    <string name="make_your_app_material_launch_app">Este botão irá iniciar meu aplicativo Make Your App Material!</string>
 </resources>

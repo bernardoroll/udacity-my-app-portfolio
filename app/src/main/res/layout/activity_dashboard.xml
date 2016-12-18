@@ -18,32 +18,40 @@
     tools:context="com.bernardo.myappportfolio.activity.DashboardActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
         android:text="@string/my_nanodegree_apps" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{viewModel.popularMoviesName}"/>
+        android:text="@{viewModel.popularMoviesName}"
+        android:onClick="@{(v) -> viewModel.didClickPopularMoviesButton()}"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{viewModel.stockHawkName}"/>
+        android:text="@{viewModel.stockHawkName}"
+        android:onClick="@{(v) -> viewModel.didClickStockHawkButton()}"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{viewModel.buildItBiggerName}"/>
+        android:text="@{viewModel.buildItBiggerName}"
+        android:onClick="@{(v) -> viewModel.didClickBuildItBiggerButton()}"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{viewModel.makeYourAppMaterialName}"/>
+        android:text="@{viewModel.makeYourAppMaterialName}"
+        android:onClick="@{(v) -> viewModel.didClickMakeYourAppMaterialButton()}"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{viewModel.goUbiquitousName}"/>
+        android:text="@{viewModel.goUbiquitousName}"
+        android:onClick="@{(v) -> viewModel.didClickGoUbiquitousButton()}"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{viewModel.capstoneName}"/>
+        android:text="@{viewModel.capstoneName}"
+        android:onClick="@{(v) -> viewModel.didClickCapstoneButton()}"/>
 </LinearLayout>
 </layout>
