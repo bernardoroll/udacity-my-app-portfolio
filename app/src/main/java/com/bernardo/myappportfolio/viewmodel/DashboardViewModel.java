@@ -2,7 +2,6 @@ package com.bernardo.myappportfolio.viewmodel;
 
 import com.bernardo.myappportfolio.presenter.DashboardPresenter;
 
-
 public class DashboardViewModel {
 
     private DashboardPresenter presenter;

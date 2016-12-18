@@ -20,17 +20,15 @@ public class DashboardActivity extends AppCompatActivity implements CommonPresen
 
     @BindView(R.id.activity_dashboard)
     LinearLayout activityDashboard;
-    private DashboardViewModel viewModel;
     ActivityDashboardBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-
         binding = DataBindingUtil.setContentView(this, R.layout.activity_dashboard);
-        this.viewModel = new DashboardViewModel(this);
-        binding.setViewModel(this.viewModel);
+        DashboardViewModel viewModel = new DashboardViewModel(this);
+        binding.setViewModel(viewModel);
     }
 
     @Override
